@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+}
+:root {
+	/* font-family: "Open Sans", sans-serif; */
+	--bodyWhite: #ffffff;
+	--lighttext: #666666;
+	--superlight: #999999;
+	--darktext: #333333;
+	--puredark: #000000;
+	--lightblue: #074ea3;
+}
+
+body {
+	/* background-color: #e0f7fa; */
+	background-image: url(/images/cycleboy.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/* height: 900px; */
+}
+
+/* img {
+	width: 50%;
+} */
+
+#signinbox {
+	width: 400px;
+	height: 500px;
+	margin: auto;
+	margin-top: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+}
+#textbox {
+	width: 90%;
+	margin: 40px auto;
+	margin-bottom: 40px;
+	padding-top: 10px !important;
+}
+.signinheader {
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 40px;
+}
+div {
+	display: block;
+}
+#formContainer {
+	padding: 10px 10%;
+	margin-top: 40px;
+}
+input {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 35px;
+}
+.signinbtn {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	height: 40px;
+	margin: auto;
+	color: white;
+	font-weight: 500;
+	background-color: #ffab00;
+	cursor: pointer;
+	border: none;
+	align-items: center;
+	padding: 10px;
+	font-size: 15px;
+}
+.signintxt {
+	margin-top: 40px;
+}
+#alert {
+	color: red;
+	margin-left: 30px;
+}
+p span {
+	color: #283593;
+	cursor: pointer;
+}
+#signintext {
+	text-align: center;
+}
+#set {
+	width: 80%;
+	margin: auto;
+	/* border: 2px solid black; */
+}
+#mainbottom {
+	/* border: 2px solid black; */
+	padding: 20px;
+	display: flex;
+}
+#inp_b {
+	margin: -15px;
+	width: 80%;
+	border-color: var(--lightblue);
+	padding: 3px;
+	border-radius: 3px;
+}
+#inp2 {
+	/* border: 2px solid black; */
+	/* padding: 10px; */
+	width: 50%;
+}
+#butb {
+	padding: 3px;
+	width: 120px;
+	background-color: var(--lightblue);
+	border-radius: 0 3px 3px 0;
+	color: #ffffff;
+	margin-left: -10px;
+}
+#inp3 {
+	width: 50%;
+	/* border: 1px solid black; */
+	/* padding: 5px; */
+	justify-content: space-between;
+	/* padding-left: 20px; */
+	display: flex;
+}
+
+#about {
+	width: 50%;
+	/* border: 1px solid black; */
+	padding: 8px;
+	line-height: 35px;
+}
+#p1 {
+	font-size: 12px;
+	line-height: 24px;
+	color: var(--superlight);
+	/* padding: 8px; */
+}
+#help {
+	font-size: 12px;
+	line-height: 24px;
+	width: 16%;
+	/* border: 1px solid black; */
+	padding: 8px;
+	margin-left: 20px;
+}
+#sup {
+	/* width: 15%; */
+	font-size: 12px;
+	line-height: 24px;
+	width: 16%;
+	/* border: 1px solid black; */
+	padding: 8px;
+}
+#pol {
+	font-size: 12px;
+	line-height: 24px;
+	width: 14%;
+	/* border: 1px solid black; */
+	padding: 8px;
+	/* margin-left: 20px; */
+}
+#bottombody {
+	display: flex;
+}
+#end {
+	margin-left: 7%;
+
+	padding: 20px;
+}
+#p21 {
+	display: flex;
+	/* flex-basis: auto;*/
+	/* justify-content: center; */
+	justify-content: space-evenly;
+	padding: 10px;
+}
+.p2 {
+	/* border: 1px solid black; */
+	flex-basis: auto;
+	font-size: 13px;
+	color: var(--superlight);
+	background-color: #f1f1f1;
+	padding: 5px;
+}
+#fo {
+	color: var(--superlight);
+	font-size: 13px;
+	text-align: center;
+}
